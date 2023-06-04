@@ -1,0 +1,30 @@
+{
+    "name": "rgxfox/jira",
+    "description": "Some tools for interacting with jira by rest api",
+    "type": "library",
+    "license": "private",
+    "autoload": {
+        "psr-4": {
+            "Rgxfox\\Jira\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boris"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "illuminate/support": "^10.13",
+        "illuminate/routing": "^10.13",
+        "lesstif/php-jira-rest-client": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Rgxfox\\Jira\\ServiceProvider"
+            ]
+        }
+    }
+}
