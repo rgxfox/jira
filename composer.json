@@ -2,7 +2,7 @@
     "name": "rgxfox/jira",
     "description": "Some tools for interacting with jira by rest api",
     "type": "library",
-    "license": "private",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Rgxfox\\Jira\\": "src/"
